@@ -2,7 +2,7 @@
 //  TodoList.swift
 //  LocalNotificationsTutorial
 //
-//  Created by Jason Newell on 2/3/15.
+//  Created by Charles Konkol on 4/22/15
 //
 //
 

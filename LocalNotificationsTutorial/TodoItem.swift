@@ -2,8 +2,8 @@
 //  TodoItem.swift
 //  TodoNotificationsTutorial
 //
-//  Created by Jason Newell on 1/28/15.
-//  Copyright (c) 2015 Jason Newell. All rights reserved.
+//  Created by Charles Konkol on 4/22/15
+//  Copyright (c) 2015 Charles Konkol. All rights reserved.
 //
 
 import Foundation

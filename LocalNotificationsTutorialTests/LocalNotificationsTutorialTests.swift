@@ -2,7 +2,7 @@
 //  LocalNotificationsTutorialTests.swift
 //  LocalNotificationsTutorialTests
 //
-//  Created by Jason Newell on 1/30/15.
+//  Created by Charles Konkol on 4/22/15.
 //
 //
 
