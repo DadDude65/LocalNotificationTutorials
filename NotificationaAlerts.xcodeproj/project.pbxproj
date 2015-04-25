@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6E3AE61AEBE4D500F386B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E3AE51AEBE4D500F386B4 /* HomeViewController.swift */; };
+		0D6E3AEC1AEC06E300F386B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E3AEB1AEC06E300F386B4 /* Images.xcassets */; };
 		744784E51A81813400B09D65 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744784E41A81813400B09D65 /* TodoList.swift */; };
 		744784E71A81813C00B09D65 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744784E61A81813C00B09D65 /* TodoItem.swift */; };
 		7469E4311A7C8E8200C68120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469E4301A7C8E8200C68120 /* AppDelegate.swift */; };
 		7469E4361A7C8E8200C68120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7469E4341A7C8E8200C68120 /* Main.storyboard */; };
-		7469E4381A7C8E8200C68120 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7469E4371A7C8E8200C68120 /* Images.xcassets */; };
 		7469E43B1A7C8E8200C68120 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7469E4391A7C8E8200C68120 /* LaunchScreen.xib */; };
 		7469E4471A7C8E8200C68120 /* LocalNotificationsTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469E4461A7C8E8200C68120 /* LocalNotificationsTutorialTests.swift */; };
 		7469E4531A7C9D5600C68120 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469E4521A7C9D5600C68120 /* TodoTableViewController.swift */; };
@@ -29,13 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D6E3AE51AEBE4D500F386B4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0D6E3AEB1AEC06E300F386B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NotificationaAlerts/Images.xcassets; sourceTree = "<group>"; };
 		744784E41A81813400B09D65 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		744784E61A81813C00B09D65 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		7469E42B1A7C8E8200C68120 /* NotificationaAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationaAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7469E42F1A7C8E8200C68120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7469E4301A7C8E8200C68120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7469E4351A7C8E8200C68120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7469E4371A7C8E8200C68120 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7469E43A1A7C8E8200C68120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7469E4401A7C8E8200C68120 /* NotificationaAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationaAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7469E4451A7C8E8200C68120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +67,8 @@
 		7469E4221A7C8E8200C68120 = {
 			isa = PBXGroup;
 			children = (
+				0D6E3AEB1AEC06E300F386B4 /* Images.xcassets */,
+				0D6E3AE51AEBE4D500F386B4 /* HomeViewController.swift */,
 				7469E42D1A7C8E8200C68120 /* LocalNotificationsTutorial */,
 				7469E4431A7C8E8200C68120 /* LocalNotificationsTutorialTests */,
 				7469E42C1A7C8E8200C68120 /* Products */,
@@ -89,7 +93,6 @@
 				744784E41A81813400B09D65 /* TodoList.swift */,
 				744784E61A81813C00B09D65 /* TodoItem.swift */,
 				7469E4341A7C8E8200C68120 /* Main.storyboard */,
-				7469E4371A7C8E8200C68120 /* Images.xcassets */,
 				7469E4391A7C8E8200C68120 /* LaunchScreen.xib */,
 				7469E42E1A7C8E8200C68120 /* Supporting Files */,
 			);
@@ -201,8 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7469E4361A7C8E8200C68120 /* Main.storyboard in Resources */,
+				0D6E3AEC1AEC06E300F386B4 /* Images.xcassets in Resources */,
 				7469E43B1A7C8E8200C68120 /* LaunchScreen.xib in Resources */,
-				7469E4381A7C8E8200C68120 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +228,7 @@
 				7469E4531A7C9D5600C68120 /* TodoTableViewController.swift in Sources */,
 				7469E4311A7C8E8200C68120 /* AppDelegate.swift in Sources */,
 				744784E51A81813400B09D65 /* TodoList.swift in Sources */,
+				0D6E3AE61AEBE4D500F386B4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +354,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LocalNotificationsTutorial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -361,6 +367,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LocalNotificationsTutorial/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
